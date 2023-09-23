@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitspot</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="style-header"></div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-wrapper">
+                        <div class="nav-top d-flex align-items-center justify-content-between">
+                          <div class="main-logo">
+                              <img src="assets/images/main logo.png" alt="">
+                          </div>
+                          <div class="sub-menu">
+                            <div class="menu-tablet">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button> 
+                              <!-- <div class="tablet-items">
+                                <ul class="navbar-nav justify-content-end flex-grow-1">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        <img src="assets/images/cart.png" alt="">
+                                        CART
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">WISHLIST</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">QUOTE LIST</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">LOGIN</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">REGISTER</a>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div class="tablet-number">
+                              <div class="image">
+                                <img src="assets/images/icon phone.png" alt="">
+                              </div>
+                              <div class="call">
+                                <p>Call us 1300 748 776</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                            </div>
+                            
+                              <!-- <div class="logo-header">
+                                <div class="logo-mobile">
+                                  <img src="assets/images/main logo.png" alt="">
+                                </div> -->
+                                <div class="main-menu">
+                                  <ul class="navbar-nav justify-content-end flex-grow-1">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">
+                                          <img src="assets/images/cart.png" alt="">
+                                          CART
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">WISHLIST</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">QUOTE LIST</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">LOGIN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">REGISTER</a>
+                                    </li>
+                                  </ul>
+                              </div>
+                              <div class="phone-number">
+                                <div class="image">
+                                  <img src="assets/images/icon phone.png" alt="">
+                                </div>
+                                <div class="call">
+                                  <p>Call us 1300 748 776</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                      <div class="nav-bot d-flex align-items-center justify-content-between">
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                          <div class="offcanvas-header">
+                            
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                    
+                          <div class="offcanvas-body">
+                           <ul class="navbar-nav justify-content-start flex-grow-1">
+                             <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#">Home</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Products</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Segments</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Sale Items</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Resources</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Projects</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">About Us</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Contact Us</a>
+                             </li>
+                           </ul>
+                       </div>
+                   </div>
+                   <form id="search" style="width: 263px; height: 33px;">
+                     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search products here">
+                     <button id="icon"><img src="assets/images/search icon.png" alt=""></button>
+                   </form>
+                 </div>
+                  </div>
+              </nav>
+      
+    </header>
+</body>
+</html>
